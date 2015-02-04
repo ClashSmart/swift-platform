@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02039B431A81FB71009A5C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02039B421A81FB71009A5C35 /* AppDelegate.swift */; };
+		02039B451A81FB71009A5C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02039B441A81FB71009A5C35 /* ViewController.swift */; };
+		02039B481A81FB71009A5C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02039B461A81FB71009A5C35 /* Main.storyboard */; };
+		02039B4A1A81FB71009A5C35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02039B491A81FB71009A5C35 /* Images.xcassets */; };
+		02039B4D1A81FB71009A5C35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02039B4B1A81FB71009A5C35 /* LaunchScreen.xib */; };
+		02039B591A81FB71009A5C35 /* ClashSmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02039B581A81FB71009A5C35 /* ClashSmartTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02039B531A81FB71009A5C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02039B351A81FB71009A5C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02039B3C1A81FB71009A5C35;
+			remoteInfo = ClashSmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02039B3D1A81FB71009A5C35 /* ClashSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClashSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02039B411A81FB71009A5C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02039B421A81FB71009A5C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02039B441A81FB71009A5C35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02039B471A81FB71009A5C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02039B491A81FB71009A5C35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02039B4C1A81FB71009A5C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		02039B521A81FB71009A5C35 /* ClashSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClashSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02039B571A81FB71009A5C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02039B581A81FB71009A5C35 /* ClashSmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClashSmartTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02039B3A1A81FB71009A5C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02039B4F1A81FB71009A5C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02039B341A81FB71009A5C35 = {
+			isa = PBXGroup;
+			children = (
+				02039B3F1A81FB71009A5C35 /* ClashSmart */,
+				02039B551A81FB71009A5C35 /* ClashSmartTests */,
+				02039B3E1A81FB71009A5C35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02039B3E1A81FB71009A5C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02039B3D1A81FB71009A5C35 /* ClashSmart.app */,
+				02039B521A81FB71009A5C35 /* ClashSmartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02039B3F1A81FB71009A5C35 /* ClashSmart */ = {
+			isa = PBXGroup;
+			children = (
+				02039B421A81FB71009A5C35 /* AppDelegate.swift */,
+				02039B441A81FB71009A5C35 /* ViewController.swift */,
+				02039B461A81FB71009A5C35 /* Main.storyboard */,
+				02039B491A81FB71009A5C35 /* Images.xcassets */,
+				02039B4B1A81FB71009A5C35 /* LaunchScreen.xib */,
+				02039B401A81FB71009A5C35 /* Supporting Files */,
+			);
+			path = ClashSmart;
+			sourceTree = "<group>";
+		};
+		02039B401A81FB71009A5C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02039B411A81FB71009A5C35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02039B551A81FB71009A5C35 /* ClashSmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				02039B581A81FB71009A5C35 /* ClashSmartTests.swift */,
+				02039B561A81FB71009A5C35 /* Supporting Files */,
+			);
+			path = ClashSmartTests;
+			sourceTree = "<group>";
+		};
+		02039B561A81FB71009A5C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02039B571A81FB71009A5C35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02039B3C1A81FB71009A5C35 /* ClashSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02039B5C1A81FB71009A5C35 /* Build configuration list for PBXNativeTarget "ClashSmart" */;
+			buildPhases = (
+				02039B391A81FB71009A5C35 /* Sources */,
+				02039B3A1A81FB71009A5C35 /* Frameworks */,
+				02039B3B1A81FB71009A5C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClashSmart;
+			productName = ClashSmart;
+			productReference = 02039B3D1A81FB71009A5C35 /* ClashSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02039B511A81FB71009A5C35 /* ClashSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02039B5F1A81FB71009A5C35 /* Build configuration list for PBXNativeTarget "ClashSmartTests" */;
+			buildPhases = (
+				02039B4E1A81FB71009A5C35 /* Sources */,
+				02039B4F1A81FB71009A5C35 /* Frameworks */,
+				02039B501A81FB71009A5C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02039B541A81FB71009A5C35 /* PBXTargetDependency */,
+			);
+			name = ClashSmartTests;
+			productName = ClashSmartTests;
+			productReference = 02039B521A81FB71009A5C35 /* ClashSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02039B351A81FB71009A5C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = honghao;
+				TargetAttributes = {
+					02039B3C1A81FB71009A5C35 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					02039B511A81FB71009A5C35 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 02039B3C1A81FB71009A5C35;
+					};
+				};
+			};
+			buildConfigurationList = 02039B381A81FB71009A5C35 /* Build configuration list for PBXProject "ClashSmart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02039B341A81FB71009A5C35;
+			productRefGroup = 02039B3E1A81FB71009A5C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02039B3C1A81FB71009A5C35 /* ClashSmart */,
+				02039B511A81FB71009A5C35 /* ClashSmartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02039B3B1A81FB71009A5C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02039B481A81FB71009A5C35 /* Main.storyboard in Resources */,
+				02039B4D1A81FB71009A5C35 /* LaunchScreen.xib in Resources */,
+				02039B4A1A81FB71009A5C35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02039B501A81FB71009A5C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02039B391A81FB71009A5C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02039B451A81FB71009A5C35 /* ViewController.swift in Sources */,
+				02039B431A81FB71009A5C35 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02039B4E1A81FB71009A5C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02039B591A81FB71009A5C35 /* ClashSmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02039B541A81FB71009A5C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02039B3C1A81FB71009A5C35 /* ClashSmart */;
+			targetProxy = 02039B531A81FB71009A5C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02039B461A81FB71009A5C35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02039B471A81FB71009A5C35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02039B4B1A81FB71009A5C35 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02039B4C1A81FB71009A5C35 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02039B5A1A81FB71009A5C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02039B5B1A81FB71009A5C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02039B5D1A81FB71009A5C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClashSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02039B5E1A81FB71009A5C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClashSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02039B601A81FB71009A5C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClashSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClashSmart.app/ClashSmart";
+			};
+			name = Debug;
+		};
+		02039B611A81FB71009A5C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClashSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClashSmart.app/ClashSmart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02039B381A81FB71009A5C35 /* Build configuration list for PBXProject "ClashSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02039B5A1A81FB71009A5C35 /* Debug */,
+				02039B5B1A81FB71009A5C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02039B5C1A81FB71009A5C35 /* Build configuration list for PBXNativeTarget "ClashSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02039B5D1A81FB71009A5C35 /* Debug */,
+				02039B5E1A81FB71009A5C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02039B5F1A81FB71009A5C35 /* Build configuration list for PBXNativeTarget "ClashSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02039B601A81FB71009A5C35 /* Debug */,
+				02039B611A81FB71009A5C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02039B351A81FB71009A5C35 /* Project object */;
+}
